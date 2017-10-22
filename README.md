@@ -6,4 +6,6 @@
 * You should have <strong>MongoDB</strong> installed and running in your system.
 * Now navigate into the repository and run command <strong>"npm install"</strong> to install the required dependencies.
 * Now start the server using command <strong>"npm start"</strong>.
-* Don't forget to have MongoDB running in your system.
+* For the complete functionality of the application, you must clone <strong>Location-Search-Api</strong> repository which provides <strong>Server Side Validation</strong>.
+* So, you must start both the servers for the complete functionality of the application.
+* Don't forget to have MongoDB running in your system by typing <strong>mongod</strong> in the new terminal.
