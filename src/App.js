@@ -6,6 +6,7 @@ import LoginPage from "./components/pages/LoginPage";
 import NewPage from "./components/pages/NewPage";
 import Search from "./components/pages/Search";
 import DashboardPage from "./components/pages/DashboardPage"
+import SignupPage from "./components/pages/SignupPage"
 import UserRoute from "./components/routes/UserRoute"
 import GuestRoute from "./components/routes/GuestRoute"
 
@@ -13,6 +14,7 @@ const App = ({ location }) => (
           <div className="ui container">
             <Route location={location} path="/" exact component={HomePage} />
             <GuestRoute location={location} path="/login" exact component={LoginPage} />
+              <GuestRoute location={location} path="/signup" exact component={SignupPage} />
             <Route location={location} path="/new" exact component={NewPage} />
             <Route location={location} path="/search" exact component={Search} />
             <UserRoute location={location} path="/dashboard" exact component={DashboardPage} />
