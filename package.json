@@ -16,7 +16,7 @@
     "redux-thunk": "^2.2.0",
     "semantic-ui-css": "^2.2.12",
     "semantic-ui-react": "^0.74.2",
-    "validator": "^9.0.0",
+    "validator": "^13.7.0",
     "babel-core": "^6.26.0",
     "google-map-react": "^0.24.0",
     "http-server": "^0.10.0",
