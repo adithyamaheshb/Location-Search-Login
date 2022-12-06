@@ -19,7 +19,7 @@
     "validator": "^9.0.0",
     "babel-core": "^6.26.0",
     "google-map-react": "^0.24.0",
-    "http-server": "^0.10.0",
+    "http-server": "^14.1.1",
     "query-string": "^5.0.0",
     "react-foursquare": "^1.0.0",
     "react-google-maps": "^7.3.0",
